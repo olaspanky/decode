@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    body {
+        @apply justify-center items-center
+    }
+   
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-normal
+    }
+
+   
+    li{
+        @apply cursor-pointer
+    }
+
+    button {
+        @apply shadow-xl shadow-gray-400 uppercase bg-[#040E53] text-white
+    }
+}
